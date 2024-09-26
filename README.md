@@ -1,13 +1,15 @@
-Create a Python Encryption & Decryption Tool
+#PythonEncryptionAndDecryption
 
-In this deliverable I utilizes Python to create a Simple Text Encryption and Decryption Tool.
+ASSIGNMENT FOR BRAINSTATION
+
+In this deliverable I utilized Python to create a Simple Text Encryption and Decryption Tool and other features.
 
 
 Part 1
 
-Wrote functions to encrypt and decrypt text using a Vignere Cipher, given a single word as a secret key. My function will handle uppercase letters and remove spaces, special characters, and numbers from both the message and the key.
+I wrote functions to encrypt and decrypt text using a Vignere Cipher, given a single word as a secret key. My functions will handle uppercase letters and remove spaces, special characters, and numbers from both the message and the key.
 
-For example, if the message was welcome to brainstation and the secret key was cybersecurity, the encrypted text would be ycmgfeivisztgpquekasp. As well, if the encrypted text was ycmgfeivisztgpquekasp and the secret key was cybersecurity, the decrypted text would be welcometobrainstation
+For example, if the message was welcome to brain Stat1on and the secret key was cyber Security!, the encrypted text would be ycmgfeivisztgpquekasp. As well, if the encrypted text was ycmgfeivisztgpquekasp and the secret key was cybersecurity, the decrypted text would be welcometobrainstation
 
 Encrypt the following text with the key: secretkey
 "Hello"
@@ -24,11 +26,11 @@ Decrypt the following encrypted text with the key brainstation
 
 
 Part 2
-I modified my program to receive input from the user using the command line. User should receive the following:
+I modified my program to receive input from the user using the command line. The user should receive the following prompts:
 
 The direction as to whether they are encrypting or decrypting
 The text to encrypt/decrypt
-Secret key to shift the message
+The secret key to shift the message
 
 
 Part 3
