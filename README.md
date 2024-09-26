@@ -46,4 +46,4 @@ Using the following information, I determined whether the following users are wh
 |TIM SUNG	            	|beagle	                  |6573818d2ffc8a09380b22a5aa517a33cca87f54e51897ee8e64b45166a76e51
 |SIMONE OSTERMANN	     	|dachshund	              |e05151fd4885688b44dece508de93cfcbe7cacb262d1d3999f9287014ab5bfb7
 
-I wrote a function that will check the hashed passphrase to the hash stored and returns a boolean value representing whether the user has given the proper passphrase or not.
+I wrote a function that will check the hashed passphrase to the hash stored, generate the appropriate boolean, and prints a statement indicating whether the user has given the proper passphrase or not.
