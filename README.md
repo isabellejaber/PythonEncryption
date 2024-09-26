@@ -39,10 +39,10 @@ Using the hashlib library, I created a function that will hash a passphrase usin
 
 Using the following information, I determined whether the following users are who they say they are:
 
-NAME OF USER	PASSPHRASE GIVEN	HASH STORED
-DARYL HOWLAND	husky	09e28e9c5875ef3b2b7463e1c9adc3cefbd35af73283f9f9281dc9b8c48f9524
-MARISSA FERREIRA	labrador	0782cb514029008de13d7e71aa1662c310b08d0d0abb29b3220466c0f3b08c1f
-TIM SUNG	beagle	6573818d2ffc8a09380b22a5aa517a33cca87f54e51897ee8e64b45166a76e51
-SIMONE OSTERMANN	dachshund	e05151fd4885688b44dece508de93cfcbe7cacb262d1d3999f9287014ab5bfb7
+NAME OF USER	        PASSPHRASE GIVEN	        HASH STORED
+DARYL HOWLAND	        husky	                    09e28e9c5875ef3b2b7463e1c9adc3cefbd35af73283f9f9281dc9b8c48f9524
+MARISSA FERREIRA	    labrador	                0782cb514029008de13d7e71aa1662c310b08d0d0abb29b3220466c0f3b08c1f
+TIM SUNG	            beagle	                  6573818d2ffc8a09380b22a5aa517a33cca87f54e51897ee8e64b45166a76e51
+SIMONE OSTERMANN	     dachshund	              e05151fd4885688b44dece508de93cfcbe7cacb262d1d3999f9287014ab5bfb7
 
 I wrote a function that will check the hashed passphrase to the hash stored and returns a boolean value representing whether the user has given the proper passphrase or not.
