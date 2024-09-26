@@ -166,4 +166,9 @@ def get_hash(password):
 #for every user in the list, store their entered passphrase into pw, and print whether it matched the hash value associated with their passphrase
 for i in user_info:
     pw = i["passphrase"]
-    print(get_hash(pw) == i["hash"])
+    isThem = (get_hash(pw) == i["hash"])
+    name = i["name"]
+    if isThem:
+        print(f"{name} has given the corrent passphrase")
+    else:
+        print(f"{name} has NOT given the correct passphrase")
