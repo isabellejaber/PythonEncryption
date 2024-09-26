@@ -169,6 +169,6 @@ for i in user_info:
     isThem = (get_hash(pw) == i["hash"])
     name = i["name"]
     if isThem:
-        print(f"{name} has given the corrent passphrase")
+        print(f"{name} has given the corrent passphrase.")
     else:
-        print(f"{name} has NOT given the correct passphrase")
+        print(f"{name} has NOT given the correct passphrase.")
